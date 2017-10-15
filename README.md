@@ -9,5 +9,5 @@ Here is my `vim` stuff.
 ```shell
 mkdir ~/.vim
 git clone https://github.com/Glascode/Vim.git
-cp Vim/colors ~/.vim
+cp -r Vim/colors ~/.vim
 ```
