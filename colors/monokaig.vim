@@ -45,7 +45,7 @@ set background=dark
 hi clear
 syntax reset
 
-let g:colors_name = "monokaig"
+let g:colors_name = "glascode_e"
 
 if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	" Returns an approximate grey index for the given grey level
@@ -269,9 +269,9 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("VertSplit", s:window, s:window, "none")
 	call <SID>X("Visual", "", s:selection, "")
 	call <SID>X("Directory", s:lightblue, "", "")
-	call <SID>X("ModeMsg", s:green, "", "")
-	call <SID>X("MoreMsg", s:green, "", "")
-	call <SID>X("Question", s:green, "", "")
+	call <SID>X("ModeMsg", s:blue, "", "none")
+	call <SID>X("MoreMsg", s:blue, "", "")
+	call <SID>X("Question", s:blue, "", "")
 	call <SID>X("WarningMsg", s:lyme, "", "")
 	call <SID>X("MatchParen", "", s:selection, "")
 	call <SID>X("Folded", s:comment, s:background, "")
@@ -298,7 +298,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("Statement", s:lyme, "", "")
 	call <SID>X("Conditional", s:red, "", "")
 	call <SID>X("Repeat", s:foreground, "", "")
-	call <SID>X("Label", s:blue, "", "")
+	call <SID>X("Label", s:lyme, "", "")
 	call <SID>X("Function", s:blue, "", "")
 	call <SID>X("Constant", s:orange, "", "")
 	call <SID>X("String", s:yellow, "", "")
@@ -318,14 +318,14 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("Number", s:purple, "", "")
 	call <SID>X("Boolean", s:blue, "", "")
 	call <SID>X("Float", s:blue, "", "")
-	call <SID>X("Identifier", s:peach, "", "")
+	call <SID>X("Identifier", s:red, "", "none")
 	call <SID>X("Function", s:foreground, "", "")
 	call <SID>X("Include", s:red, "", "")
 	call <SID>X("Macro", s:blue, "", "")
 	call <SID>X("PreCondit", s:aqua, "", "")
-	call <SID>X("StorageClass", s:peach, "", "bold")
+	call <SID>X("StorageClass", s:red, "", "")
 	call <SID>X("Structure", s:blue, "", "bold")
-	call <SID>X("Delimiter",s:aqua, "", "")
+	call <SID>X("Delimiter",s:purple, "", "")
 	call <SID>X("SpecialComment", s:comment, "", "bold")
 	call <SID>X("Debug", s:orange, "", "")
 	call <SID>X("Global", s:blue, "", "")
@@ -333,7 +333,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 
 	" Vim Highlighting
 	call <SID>X("vimCommand", s:blue, "", "none")
-	call <SID>X("vimVar", s:peach, "", "")
+	call <SID>X("vimVar", s:red, "", "")
 	call <SID>X("vimFuncKey", s:lyme, "", "")
 	call <SID>X("vimFunction", s:blue, "", "bold")
 	call <SID>X("vimNotFunc", s:lyme, "", "")
