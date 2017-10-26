@@ -1,12 +1,13 @@
 syntax on  "enable syntax highlighting
 set number  "enable number gutter on the left
 set mouse=a  "enable mouse
-set tabstop=4
-set shiftwidth=4
-set ruler  "in order to see the line and column numbers
 
-"set expandtab  "replace tabs by spaces
-"filetype indent plugin on  "show existing tab with 4 spaces width
+set softtabstop=4  "number of space characters when the tab key is pressed
+set shiftwidth=4  "number of space characters inserted for indentation
+set expandtab  "replace tabs by spaces
+filetype indent plugin on  "automatic indent
+
+set ruler  "in order to see the line and column numbers
 
 colorscheme monokaig  "use the monokaig colorscheme by default
 
