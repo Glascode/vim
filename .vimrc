@@ -21,6 +21,6 @@ autocmd Filetype gitcommit setlocal spell textwidth=72
 
 """Syntax highlighting and indentation for Lilypond files:
 filetype off
-set runtimepath+=/Users/Mael/Applications/LilyPond.app/Contents/Resources/share/lilypond/current/vim
+set runtimepath+=~/Applications/LilyPond.app/Contents/Resources/share/lilypond/current/vim
 filetype on
 
