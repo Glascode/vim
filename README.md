@@ -8,7 +8,7 @@ Here is my `vim` stuff.
 
 ```shell
 mkdir ~/.vim
-git clone https://github.com/Glascode/vim.git
+git clone https://github.com/maelquerre/vim.git
 cp -r vim/colors ~/.vim
 ```
 
