@@ -9,7 +9,7 @@ filetype indent plugin on  "automatic indent
 
 set ruler  "in order to see the line and column numbers
 
-colorscheme monokaig  "use the monokaig colorscheme by default
+colorscheme monokai  "use the monokaig colorscheme by default
 
 """Use the 'gitimproved' colorscheme for .sql files only:
 autocmd FileType sql colorscheme gitimproved
