@@ -1,14 +1,13 @@
 <scheme name="rsms" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2021-11-07T21:37:53</property>
+    <property name="created">2022-03-03T10:15:04</property>
     <property name="ide">PhpStorm</property>
-    <property name="ideVersion">2021.1.4.0.0</property>
-    <property name="modified">2021-11-07T21:38:01</property>
+    <property name="ideVersion">2021.3.1.0.0</property>
+    <property name="modified">2022-03-03T10:15:08</property>
     <property name="originalScheme">rsms</property>
   </metaInfo>
-  <option name="CONSOLE_FONT_NAME" value="Menlo" />
-  <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <colors>
     <option name="CARET_COLOR" value="f76ec9" />
@@ -156,7 +155,7 @@
     </option>
     <option name="CONSOLE_GREEN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="7ec980" />
+        <option name="FOREGROUND" value="51b454" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
@@ -464,7 +463,9 @@
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
-      <value />
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
     </option>
     <option name="DEFAULT_PARENTHS">
       <value>
@@ -610,7 +611,6 @@
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -686,7 +686,6 @@
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -703,7 +702,6 @@
     </option>
     <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -25564,8 +25562,7 @@
     <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
     <option name="SASS_MIXIN">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="94b3d1" />
       </value>
     </option>
     <option name="SASS_VARIABLE">
@@ -25681,7 +25678,7 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="94d1b2" />
+        <option name="FOREGROUND" value="ccffe5" />
       </value>
     </option>
     <option name="TS.TYPE_GUARD">
